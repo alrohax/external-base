@@ -154,8 +154,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="cheatHandler\cheats.h" />
-    <ClInclude Include="cheats\antiflash.h" />
-    <ClInclude Include="cheats\esp.h" />
     <ClInclude Include="globals.h" />
     <ClInclude Include="math\Vector.h" />
     <ClInclude Include="memory\memory.h" />
@@ -174,8 +172,6 @@
     <ClInclude Include="cheats\thridperson.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="cheats\antiflash.cpp" />
-    <ClCompile Include="cheats\esp.cpp" />
     <ClCompile Include="globals.cpp" />
     <ClCompile Include="memory\memory.cpp" />
     <ClCompile Include="sdk\imgui\imgui.cpp" />
