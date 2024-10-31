@@ -169,7 +169,6 @@
     <ClInclude Include="sdk\offsets\buttons.hpp" />
     <ClInclude Include="sdk\offsets\client_dll.hpp" />
     <ClInclude Include="sdk\offsets\offsets.hpp" />
-    <ClInclude Include="cheats\thridperson.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="globals.cpp" />
@@ -184,7 +183,6 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="cheatHandler\cheats.cpp" />
     <ClCompile Include="render\overlay\overlay.cpp" />
-    <ClCompile Include="cheats\thridperson.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
