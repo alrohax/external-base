@@ -3,8 +3,8 @@
 #define globals
 
 // Global variables
-//extern bool bhop;
-int tab;
+
+extern int tab;
 
 extern DWORD pID;
 extern uintptr_t baseAddress;
