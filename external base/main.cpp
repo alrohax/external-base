@@ -20,7 +20,7 @@ int main()
 
     std::cout << "game found!!" << std::endl;
     std::cout << "pid >> " << globals::pID << std::endl;
-    std::cout << "base address >> " << globals::baseAddress << std::endl;
+    std::cout << "base address: 0x" << std::hex << globals::baseAddress << std::dec << std::endl;
 
     // threading
     std::thread cheatsThread(Cheats::Run);
