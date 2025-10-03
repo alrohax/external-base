@@ -1,2 +1,2 @@
 # external-base
-Simple external base for gaming hacking
+Simple external base for game hacking
